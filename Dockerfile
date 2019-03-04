@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER codenry "info@codenry.com"
+MAINTAINER codenry wanjala "info@codenry.com"
 RUN apt-get update -y
 RUN apt-get install -y python-pip python-dev build-essential
 ADD . /flask-app

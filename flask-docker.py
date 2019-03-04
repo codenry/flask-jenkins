@@ -7,7 +7,7 @@ def hello_world():
 
 
 @app.route('/home')
-def home():
+def home()
     return 'this is home route'
 
 
